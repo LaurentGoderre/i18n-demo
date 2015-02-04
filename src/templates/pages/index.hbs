@@ -1,0 +1,11 @@
+---
+title: Home
+heading: 'Yo, Assemble!'
+lead: Welcome to my blog!
+warning: '<%= i18n[language].warning %>'
+---
+<div class="jumbotron">
+  <h1>{{ heading }}</h1>
+  {{#if warning}}<p>{{warning}}</p>{{/if}}
+  <p>{{{i18n "paragraph"}}}</p>
+</div>
